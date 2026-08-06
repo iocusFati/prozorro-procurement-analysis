@@ -1,32 +1,32 @@
-# 📊 Аналіз закупівель ProZorro
+# 📊 ProZorro Procurement Analysis
 
 ---
 
-## 🏢 Про проєкт
+## 🏢 About the Project
 
-Цей проєкт базується на аналізі даних системи публічних закупівель **ProZorro** — відкритої платформи, яка працює за принципом «усі бачать усе».
+This project is based on an analysis of data from **ProZorro**, Ukraine's public procurement system — an open platform operating on the principle "everyone sees everything."
 
-Інсайти надаються за наступними ключовими напрямками:
+Insights are provided along the following key directions:
 
-- **Динаміка закупівель**
-- **Структура витрат**
-- **Регіональні відмінності**
-- **Ефективність та економія**
+- **Procurement dynamics**
+- **Spending structure**
+- **Regional differences**
+- **Efficiency and savings**
 
-Дашборд Tableu можна переглянути [тут.](https://public.tableau.com/app/profile/volodymyr.mykulanynets/viz/Prozorro_17716876370890/SpendingDashboard)
+The Tableau dashboard can be viewed [here.](https://public.tableau.com/app/profile/volodymyr.mykulanynets/viz/Prozorro_17716876370890/SpendingDashboard)
 
 ---
 
-## 🗂 Структура даних
+## 🗂 Data Structure
 
-Аналіз базується на датасеті `procurements`, який містить:
+The analysis is based on the `procurements` dataset, which contains:
 
-- **291 468 записів (лотів)**
-- інформацію про:
-  - вартість лотів  
-  - категорії закупівель  
-  - регіони  
-  - учасників торгів  
+- **291,468 records (lots)**
+- information on:
+  - lot value
+  - procurement categories
+  - regions
+  - bidding participants
 
 <p align="center">
   <img width="175" height="278" src="https://github.com/user-attachments/assets/fb201f8f-9a0a-449f-a914-e7dd56e97b75" />
@@ -34,13 +34,13 @@
 
 ---
 
-## 📌 Загальний огляд
+## 📌 Overview
 
-Після поступового зростання активності у 2022–2024 роках, у 2025 році система публічних закупівель демонструє різке зниження ключових показників. Загальний обсяг витрат скоротився на **24%**, а кількість лотів — на **8.5%**, що свідчить про зміну динаміки ринку після періоду відновлення.
+After gradual growth in activity during 2022–2024, the public procurement system shows a sharp decline in key indicators in 2025. Total spending fell by **24%**, and the number of lots dropped by **8.5%**, signaling a shift in market dynamics after a period of recovery.
 
-Водночас рівень економії залишається стабільним: незалежно від змін у обсягах витрат, частка зекономлених коштів практично не відрізняється від попередніх років.
+At the same time, the savings rate remains stable: regardless of changes in spending volume, the share of savings is practically unchanged from previous years.
 
-Це вказує на те, що ефективність закупівель формується не масштабом витрат, а більш стійкими факторами, які зберігаються навіть у періоди спаду.
+This indicates that procurement efficiency is shaped not by the scale of spending, but by more persistent factors that hold steady even during downturns.
 
 <p align="center">
   <img width="1342" height="347" src="https://github.com/user-attachments/assets/1bbe137e-f68d-4579-87d5-2059eac98011" />
@@ -48,34 +48,34 @@
 
 ---
 
-## 🔍 Глибокий огляд
+## 🔍 Deep Dive
 
-### 📊 Динаміка закупівель
+### 📊 Procurement Dynamics
 
-Після стабільного зростання у 2022–2024 роках, у 2025 році відбувається різкий спад:
+After steady growth in 2022–2024, 2025 sees a sharp decline:
 
-- витрати: **−24%**
-- кількість лотів: **−8.5%**
+- spending: **−24%**
+- number of lots: **−8.5%**
 
-Це свідчить про зміну ринкових умов або бюджетної політики після періоду відновлення.
+This points to a shift in market conditions or budget policy following the recovery period.
 
 ---
 
-### 🏗 Структура витрат
+### 🏗 Spending Structure
 
-Ринок має високу концентрацію у кількох категоріях.
+The market shows a high concentration in a few categories.
 
-Топ-3 категорії:
+Top 3 categories:
 
-- **Будівельні роботи (Construction work)**  
-- **Нафтопродукти та енергоресурси (Petroleum products, fuel, electricity and other energy sources)**  
-- **Допоміжні транспортні послуги (Supporting and auxiliary transport services)**  
+- **Construction work**
+- **Petroleum products, fuel, electricity and other energy sources**
+- **Supporting and auxiliary transport services**
 
-Разом вони формують **72% усіх витрат**, з яких:
+Together they account for **72% of total spending**, of which:
 
-- **55% припадає на будівельні роботи**
+- **55% comes from construction work**
 
-Це означає, що саме ці категорії визначають загальну динаміку ринку.
+This means these categories largely determine the overall market dynamics.
 
 <p align="center">
   <img width="637" height="393" src="https://github.com/user-attachments/assets/8aa8924b-0976-4469-8a5f-81bc6182470e" />
@@ -83,17 +83,17 @@
 
 ---
 
-## 🗺 Регіональні відмінності
+## 🗺 Regional Differences
 
-Розподіл витрат є нерівномірним:
+Spending distribution is uneven:
 
-- **Київ — ~31% усіх витрат**
+- **Kyiv — ~31% of total spending**
 
-Це вказує на високу концентрацію:
+This indicates a high concentration of:
 
-- великих проєктів  
-- бюджетів  
-- закупівельної активності  
+- large projects
+- budgets
+- procurement activity
 
 <p align="center">
   <img width="653" height="424" src="https://github.com/user-attachments/assets/4c55f8b3-045b-48ca-88a0-a0871d256d4b" />
@@ -101,15 +101,15 @@
 
 ---
 
-### 💰 Ефективність та економія
+### 💰 Efficiency and Savings
 
-Система демонструє стабільний рівень конкуренції та передбачувану ефективність аукціонів:
+The system shows a stable level of competition and predictable auction efficiency:
 
-- **медіана економії: 2.3%**
-- **272 тис. учасників**
-- **3.1 учасника на лот (в середньому)**
+- **median savings: 2.3%**
+- **272K participants**
+- **3.1 participants per lot (on average)**
 
-Це свідчить про сформовані ринкові механізми, які забезпечують економію незалежно від загальних обсягів закупівель.
+This points to established market mechanisms that ensure savings regardless of overall procurement volume.
 
 <p align="center">
   <img width="1332" height="338" src="https://github.com/user-attachments/assets/ccacb122-34ee-474c-862c-ac7c1802e930" />
@@ -117,29 +117,29 @@
 
 ---
 
-### ⚔️ Вплив конкуренції
+### ⚔️ Impact of Competition
 
-Конкуренція є ключовим фактором, який безпосередньо впливає на рівень економії.
+Competition is a key factor with a direct effect on the level of savings.
 
-При відсутності конкуренції економія практично відсутня (~0.2%). Зі збільшенням кількості учасників вона зростає:
+With no competition, savings are practically nonexistent (~0.2%). As the number of participants increases, savings grow:
 
-- **2 учасники → ~1.1% економії**
-- **3+ учасники → різке зростання економії**
+- **2 participants → ~1.1% savings**
+- **3+ participants → sharp increase in savings**
 
-Водночас більшість ринку все ще перебуває у зоні низької конкуренції — найчастіше на лот припадає лише 2 учасники.
+At the same time, most of the market still falls in the low-competition zone — most often a lot has only 2 participants.
 
-Конкуренція формується під впливом трьох основних факторів:
+Competition is shaped by three main factors:
 
-- вартість лоту  
-- категорія закупівлі  
-- регіон  
+- lot value
+- procurement category
+- region
 
-Зокрема, вартість має пряму залежність:
+In particular, value shows a direct relationship:
 
-- **до 4 млн** → ~60% лотів мають ≤2 учасників  
-- **понад 4 млн** → ~50% лотів мають >2 учасників  
+- **up to 4 million** → ~60% of lots have ≤2 participants
+- **over 4 million** → ~50% of lots have >2 participants
 
-Це вказує на те, що дорожчі закупівлі частіше залучають більше конкурентів і потенційно генерують більшу економію.
+This indicates that more expensive procurements more often attract more competitors and potentially generate greater savings.
 
 <p align="center">
   <img width="429" height="430" src="https://github.com/user-attachments/assets/a3b50dec-5106-46e6-a636-02f21fefdb0a" />
@@ -148,79 +148,79 @@
 
 ---
 
-### 🧩 Вплив категорій
-Рівень економії суттєво відрізняється між категоріями, що відображає різну структуру ринку та інтенсивність конкуренції.
+### 🧩 Impact of Categories
+The level of savings differs significantly across categories, reflecting different market structures and levels of competitive intensity.
 
-Найвищу ефективність демонструє категорія:
+The highest efficiency is shown by the category:
 
-- **Нафтопродукти, паливо та енергоресурси — ~11.6%**
+- **Petroleum products, fuel and energy resources — ~11.6%**
 
-Це більш ніж у 3 рази вище за середній рівень і пояснюється:
+This is more than 3 times the average level and is explained by:
 
-- високою конкуренцією  
-- стандартизованістю товарів  
+- high competition
+- product standardization
 
-Категорії з помірною економією:
+Categories with moderate savings:
 
-- будівельні матеріали та супутні товари — ~3.4%  
-- транспортні послуги — ~3.2%  
-- будівельні роботи — ~3.0%  
+- construction materials and related goods — ~3.4%
+- transport services — ~3.2%
+- construction work — ~3.0%
 
-Водночас найбільша за обсягом категорія (**будівельні роботи**) демонструє відносно низьку економію, що може бути наслідком:
+At the same time, the largest category by volume (**construction work**) shows relatively low savings, which may result from:
 
-- складності та унікальності проєктів  
-- обмеженої конкуренції  
+- the complexity and uniqueness of projects
+- limited competition
 
-Найнижча ефективність спостерігається у:
+The lowest efficiency is observed in:
 
-- медичних товарах — ~0.8%  
-- транспортному обладнанні — ~0.6%  
+- medical goods — ~0.8%
+- transport equipment — ~0.6%
 
-Ці категорії характеризуються вузькою спеціалізацією та меншою кількістю постачальників.
+These categories are characterized by narrow specialization and a smaller number of suppliers.
 
-📌 **Ключовий висновок:**  
-економія прямо залежить від рівня конкуренції та стандартизованості предмета закупівлі.
+📌 **Key takeaway:**
+savings depend directly on the level of competition and the standardization of the procurement item.
 
 ---
 
-### 📍 Регіональна ефективність
+### 📍 Regional Efficiency
 
-Ефективність закупівель суттєво відрізняється між регіонами і не завжди корелює з обсягами витрат.
+Procurement efficiency varies significantly across regions and doesn't always correlate with spending volume.
 
-Найвищу економію демонструють:
+The highest savings are shown by:
 
-- **Волинська область — 7.3%**  
-- **Житомирська область — 5.9%**  
-- **Тернопільська область — 5%**
+- **Volyn Oblast — 7.3%**
+- **Zhytomyr Oblast — 5.9%**
+- **Ternopil Oblast — 5%**
 
-При цьому ці регіони:
+At the same time, these regions:
 
-- не є лідерами за витратами  
-- мають подібний рівень конкуренції (~2.7 учасника на лот)  
-- але демонструють вищу ефективність  
+- are not spending leaders
+- have a similar level of competition (~2.7 participants per lot)
+- yet show higher efficiency
 
-Для порівняння:
+For comparison:
 
-- **Київ — ~1.7% економії**
+- **Kyiv — ~1.7% savings**
 
-Глибший аналіз показує значну варіативність навіть у межах однієї категорії.
+A deeper analysis reveals significant variability even within a single category.
 
-Наприклад, у категорії *будівельні роботи* (1–2 млн):
+For example, in the *construction work* category (1–2 million):
 
-- Житомирська область — **11.7% економії (54 лоти)**  
-- Київська область — **0.9% економії (833 лоти)**  
+- Zhytomyr Oblast — **11.7% savings (54 lots)**
+- Kyiv Oblast — **0.9% savings (833 lots)**
 
-Можливе пояснення — масштаб:
+A possible explanation is scale:
 
-- у Київській області ~41% лотів мають лише одного учасника  
-- велика кількість закупівель може знижувати конкуренцію  
+- in Kyiv Oblast, ~41% of lots have only one participant
+- a large number of procurements can reduce competition
 
-Водночас це правило не є універсальним:
+However, this rule isn't universal:
 
-- у Чернігівській області (45 лотів) економія становить лише **1.1%**
+- in Chernihiv Oblast (45 lots), savings are only **1.1%**
 
-📌 **Ключовий висновок:**  
-регіональна ефективність визначається не лише обсягами, а й якістю конкуренції та організацією закупівель.
+📌 **Key takeaway:**
+regional efficiency is determined not only by volume, but also by the quality of competition and how procurements are organized.
 
 <p align="center">
   <img width="1519" height="442" src="https://github.com/user-attachments/assets/92ac4153-6268-45d1-8cef-9e671c7c6302" />
@@ -230,21 +230,21 @@
 
 ---
 
-## 🚀 Рекомендації
+## 🚀 Recommendations
 
-На основі проведеного аналізу можна запропонувати наступні кроки для підвищення ефективності закупівель:
+Based on the analysis, the following steps can be proposed to improve procurement efficiency:
 
-- Економія суттєво зростає при 3+ учасниках на лот → впроваджувати практики, що підвищують конкуренцію саме до цього порогу.
-- Найбільша категорія (будівельні роботи) має відносно низьку економію (~3.0%) → оптимізувати структуру лотів та підвищити прозорість вимог.
-- Регіони з меншими обсягами закупівель демонструють вищу ефективність, ніж великі ринки → дослідити та масштабувати їхні практики на національному рівні.
+- Savings increase significantly at 3+ participants per lot → implement practices that raise competition specifically to this threshold.
+- The largest category (construction work) has relatively low savings (~3.0%) → optimize lot structure and increase requirement transparency.
+- Regions with smaller procurement volumes show higher efficiency than large markets → study and scale their practices nationally.
 
 ---
 
-## ⚠️ Припущення та застереження
+## ⚠️ Assumptions and Caveats
 
-Під час аналізу було зроблено низку припущень для коректної інтерпретації даних:
+Several assumptions were made during the analysis to correctly interpret the data:
 
-- Частина лотів із відсутніми або некоректними значеннями (наприклад, регіон або категорія) була виключена з аналізу для уникнення викривлення результатів.
-- Економія розраховується як відносний показник між очікуваною та фінальною вартістю лоту, що не враховує якість виконання контракту або довгострокову ефективність.
-- Категорії закупівель агреговані, що може приховувати відмінності всередині окремих підкатегорій.
-- Дані за 2025 рік можуть бути неповними або ще оновлюватися, що потенційно впливає на точність висновків. 
+- Some lots with missing or incorrect values (e.g., region or category) were excluded from the analysis to avoid skewing results.
+- Savings are calculated as a relative measure between the expected and final lot value, which doesn't account for contract execution quality or long-term efficiency.
+- Procurement categories are aggregated, which may hide differences within individual subcategories.
+- Data for 2025 may be incomplete or still being updated, which could potentially affect the accuracy of the conclusions.
